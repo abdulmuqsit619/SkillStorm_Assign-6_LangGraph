@@ -1,0 +1,8 @@
+langchain-core>=1.6
+langchain-aws>=1.7
+langchain-text-splitters>=1.0
+langgraph>=1.2
+python-dotenv>=1.0
+
+[dev]
+pytest>=8.0

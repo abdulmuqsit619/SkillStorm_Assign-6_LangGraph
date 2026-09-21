@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: langgraph-policy-assistant
+Version: 0.1.0
+Summary: A LangGraph RAG assistant for answering policy questions.
+Requires-Python: >=3.11
+Requires-Dist: langchain-core>=1.6
+Requires-Dist: langchain-aws>=1.7
+Requires-Dist: langchain-text-splitters>=1.0
+Requires-Dist: langgraph>=1.2
+Requires-Dist: python-dotenv>=1.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
